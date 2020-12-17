@@ -35,6 +35,7 @@ public class Factura implements Serializable {
 	
 	@NotEmpty
 	private String descripcion;
+	
 	private String observacion;
 
 	@Temporal(TemporalType.DATE)
